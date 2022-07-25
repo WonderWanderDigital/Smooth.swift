@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'Smooth'
-  s.version = '0.1.1'
+  s.version = '0.1.2'
+  s.watchos.deployment_target = '4.0'
   s.summary = 'Interpolate number arrays'
   s.description = 'Heavily based on [Smooth.js](https://github.com/osuushi/Smooth.js/). Smoothing and interpolation number arrays.'
   s.homepage = 'https://github.com/ryohey/Smooth.swift'
