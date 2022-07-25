@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { 'ryohey' => 'info@codingcafe.jp' }
   s.source = { :git => 'https://github.com/ryohey/Smooth.swift.git', :tag => s.version.to_s }
-  s.platforms = { :ios => '9.0' }
+  s.platforms = { :ios => '9.0', :watchos => '2.0' }
   s.swift_version = '4.2'
   s.source_files = 'Sources/Core/**/*'
   s.framework = 'Foundation'
